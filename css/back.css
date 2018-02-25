@@ -52,7 +52,7 @@ body {
 	margin: 0 auto; /* Gives that scrolling effect as the typing happens */
 	letter-spacing: .1em; /* Adjust as needed */
 	animation: 
-	  typing 3.5s steps(40, end),
+	  typing 3.8s steps(40, end),
 	  blink-caret .75s step-end infinite;
   }
   
@@ -131,4 +131,7 @@ However, delay the fade out process for 2.5 seconds */
     from {bottom: 30px; opacity: 1;}
     to {bottom: 0; opacity: 0;}
 }
-
+.bigg {
+	font-size: 3em;
+	font-family: 'Orbitron';
+}

@@ -16,19 +16,19 @@
 
     <link rel="stylesheet" href="css/stylesheet.css" type="text/css" charset="utf-8" />
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
 
     <!-- Custom fonts for this template -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:400,700|Orbitron:700" rel="stylesheet">
     <!-- Plugin CSS -->
     <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css">
 
     <!-- Custom styles for this template -->
     <link href="css/freelancer.css" rel="stylesheet">
     <link rel="stylesheet" href="css/back.css">
+    <meta name="theme-color" content="#2C3E50">
     
     <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
   </head>
@@ -87,7 +87,7 @@
         </div>
         <div class="row" style="padding:10px">
           <div class="col-md-6 col-lg-4">
-              <img class="img-fluid rounded" style="width:100%;height:90%;" src="img/hacker.jpg" alt="">
+              <img class="img-fluid rounded" style="width:100%;height:90%;" src="img/hacker.jpeg" alt="">
           </div>
           <div class="col-md-6 col-lg-8 text-secondary">
             <h3>What is SLAC?</h3>
@@ -101,7 +101,7 @@
                 <p style="font-size:1.2em">Stay Late And Code(SLAC) brings together developers, designers and coders to create, innovate and put them into action.</p>
             </div>
             <div class=" col-md-6 col-lg-4">
-                  <img class="d-none d-md-block img-fluid rounded" style="width:100%;height:90%;" src="img/peers.jpg" alt="">
+                  <img class="d-none d-md-block img-fluid rounded" style="width:100%;height:90%;" src="img/peers.jpeg" alt="">
                 
             </div>
         </div>
@@ -112,7 +112,7 @@
         <div class="row" style="padding:10px">
           
             <div class="col-md-6 col-lg-4">
-                <img class="d-none d-md-block img-fluid rounded " style="width:100%;height:90%;" src="img/ideas.jpg" alt="">
+                <img class="d-none d-md-block img-fluid rounded " style="width:100%;height:90%;" src="img/ideas.jpeg" alt="">
               
             </div>
             <div class="col-md-6 col-lg-8 text-secondary">
@@ -124,6 +124,36 @@
       </div>
     </section>
 
+    <section class="bg-secondary text-white mb-0">
+      <div class="container">
+          <h2 class="text-center text-uppercase text-white">Choose Your App</h2>
+          <div class="row">
+            <div class="col-sm-4"></div> 
+            <div class="col-sm-4"> <hr class="star-light mb-5"></div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 col-md-4 text-center">
+              <h1> <span class="bigg">B</span>usiness</h1>
+              <p>Is your app a business concept? Then come sell it to us at SLAC.
+                Business apps change the world, take Flipkart and Zomato as an example.</div>
+            <div class="col-sm-12 col-md-4 text-center">
+              <h1><span class="bigg">U</span>tilities</h1>
+              <p>People who're lazy are the best inventors of short-cuts and life hacks.
+                If you belong to this community then show us what you got. I dare you to live your life without ES File Explorer,
+                 Google Translate or AppLock</p>
+            </div>
+            <div class="col-sm-12 col-md-4 text-center">
+              <h1><span class="bigg">G</span>ames</h1>
+              <p>Everyone loves playing games. Beating the high score is always a thriller.
+                Here's a chance for you to create your own.
+                Are you game?</p>
+            </div>
+          </div>
+      </div>
+
+    </section>  
+
+
     <!-- About Section -->
     <section class="bg-secondary text-white mb-0" id="register">
       <div class="container">
@@ -134,27 +164,16 @@
         </div>
         <div class="row">
           <div class=" text-right col-md-6 col-sm-12">
-            <p class="lead">Form a Team of maximum 4 members<br> Registration Fee: &#8377;TBA </p>
+            <p class="lead">Limited Seats!<br/>Form a Team of maximum 4 members<br> Registration Fee: &#8377;300 </p>
           </div>
         
-          <div class=" col-md-6 col-sm-12 ">
-            <form >
-            <div class="row">
-              &nbsp;
-              <input id="em" class="col-md-8 form-control" type="text" placeholder="Give us Your email address and stay updated" >
-            &nbsp;&nbsp;&nbsp;
-            <a class="col-md-2 btn btn-lg btn-outline-light" style=""  onclick="sendEmail()">
-              <i class=" fa fa-send"></i>
-              
-            </a>  
-            </div>
-            </form>
-        <!--<div class="text-left col-md-6 col-sm-12 ">
-          &emsp;&emsp;&emsp;<a class="btn btn-xl btn-outline-light" style="width:50%" href="#">
+
+        <div class="text-left col-md-6 col-sm-12 ">
+          &emsp;&emsp;&emsp;<a class="btn btn-xl btn-outline-light" target="_blank" style="width:50%" href="/register.html">
             <i class="fa fa-send mr-2"></i>
             Register
           </a>
-        </div> -->
+        </div>
         </div>
       </div>
     </section>
@@ -172,11 +191,11 @@
 
 
           <div class="row">
-            <div class="col-sm-12 col-md-3 col-lg-3 img-thumbnail" style style="hieght:80%">
+            <div class="col-sm-12 col-md-3 col-lg-3 img-thumbnail">
               <img class="img-fluid " src="img/studyowl.png">
             </div>
             <div class="col-sm-12 col-md-3 col-lg-3 img-thumbnail" style="padding-top: 23px;padding-bottom:34px;">
-              <img class="img-fluid" src="img/csi_logo.jpg">
+              <img class="img-fluid" src="img/csi_logo.jpeg">
             </div>
             <div class="col-sm-12 col-md-3 col-lg-3 img-thumbnail">
               <img class="img-fluid " src="img/amrita.png">
@@ -186,6 +205,9 @@
             </div>
             <div class="col-sm-12 col-md-3 col-lg-3 img-thumbnail" >
               <img class="img-fluid " src="img/github.png" style="padding-bottom: 0px;padding-top: 22px;">
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-3 img-thumbnail" >
+                <a href="https://aws.amazon.com/activate/" target="_blank"> <img class="img-fluid " src="img/aws.jpeg" style="padding-bottom: 0px;padding-top: 40px;"></a>
             </div>
           </div>
       </div>
@@ -208,7 +230,9 @@
               </div>
               <div class="col-md-4 mb-5 mb-lg-0">
                   <h4 class="text-uppercase mb-4">Follow Us</h4>
-                  <br><br><br><br>
+                  <br><br>
+                  <h5><i>slacfest2018@gmail.com</i></h5>
+                  <br><br>
                   <ul class="list-inline mb-0">
                     <li class="list-inline-item">
                       <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://www.facebook.com/StayLateAndCodeFest/" target="_blank">
@@ -236,7 +260,7 @@
                 <div class=" bg-secondary border-white rounded">
                   <div class="row">
                     <div class="col-md-3">
-                          <img class="img-fluid rounded-circle d-none d-lg-block" src="img/vin.jpg" alt="Person" width="100%" >
+                          <img class="img-fluid rounded-circle d-none d-lg-block" src="img/vin.jpeg" alt="Person" width="100%" >
                     </div>
                     <div class="col-md-9">
                     <p style="font-size:1.2em"> Vineeth Chandran<br>+91 80504 41498</p>
@@ -281,23 +305,16 @@
     <div id="snackbar">We got you! We'll notify you ASAP</div>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
     <!-- Plugin JavaScript -->
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
     <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
-
     <!-- Custom scripts for this template -->
     <script src="js/freelancer.min.js"></script>
     <script src="js/user.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/4.9.0/firebase.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/4.9.0/firebase-database.js"></script>
-    <script src="js/up.js"></script>
     <script>
     $( document ).ready(function() {
       if($(document).scrollTop()=='0') {

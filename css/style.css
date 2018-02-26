@@ -3,7 +3,7 @@
   margin-top: 0%;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 575.98px) {
   #about {
     padding-top: 200%;
     margin-top: 0%;
@@ -23,15 +23,15 @@
   }
 }
 
-/* ---- reset ---- */
+@media (min-width: 767.98px) {
+  canvas {
+    display: block;
+    margin-top: -45%;
+  }
+}
 
 body {
   margin: 0;
-}
-
-canvas {
-  display: block;
-  margin-top: -45%;
 }
 
 /* ---- particles.js container ---- */

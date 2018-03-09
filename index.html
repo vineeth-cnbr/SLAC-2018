@@ -27,14 +27,14 @@
 
     <!-- Custom styles for this template -->
     <link href="css/freelancer.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/back.css">
+    <link rel="stylesheet" href="css/style.css">
     <meta name="theme-color" content="#2C3E50">
     
     <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+    <meta http-equiv="ScreenOrientation" content="autoRotate:disabled">
   </head>
 
   <body id="page-top">
-
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg  fixed-top text-uppercase" id="mainNav" style="color:black;">
       <div class="container">
@@ -54,7 +54,8 @@
         </div>
       </div>
     </nav>
-
+    
+    <div id="particles-js">
     <!-- Header -->
     <header class="masthead text-white text-center">
       <div class="container typewriter ">
@@ -76,11 +77,13 @@
         <h2 class="font-weight-light mb-0">24th & 25th March 2018<br>Amrita School Of Engineering, Bangalore</h2>
       </div>
     </header>
+    </div>
 
     <!-- Portfolio Grid Section -->
-    <section class="portfolio bg-white" id="about">
+   <!-- <section class="d-none d-md-block d-lg-none portfolio" height=""></section> -->
+    <section class="portfolio bg-white" id="about" >
       <div class="container">
-        <h2 class="text-center text-uppercase text-secondary mb-0">About</h2>
+        <h2 class="text-center text-uppercase text-secondary mb-0"><br>About</h2>
         <div class="row">
           <div class="col-sm-4"></div> 
           <div class="col-sm-4"> <hr class="star-dark mb-5"></div>
@@ -302,7 +305,6 @@
         <i class="fa fa-chevron-up"></i>
       </a>
     </div>
-    <div id="snackbar">We got you! We'll notify you ASAP</div>
 
     <!-- Bootstrap core JavaScript -->
     <script src="js/jquery.min.js"></script>
@@ -313,8 +315,9 @@
     <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
     <!-- Custom scripts for this template -->
+    <script src='https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js'></script>
+    <script src="js/index.js"></script>
     <script src="js/freelancer.min.js"></script>
-    <script src="js/user.js"></script>
     <script>
     $( document ).ready(function() {
       if($(document).scrollTop()=='0') {
@@ -326,18 +329,14 @@
           $('#TheImg').attr('src','img/slac-blue.png');
           $('#TheImg').attr('width','100%');
         }
-        if($(document).scrollTop()<'100') {
+        if($(document).scrollTop()<='100') {
           $('#TheImg').attr('class','d-none d-lg-block');
           $('#TheImg').attr('width','20%');
           $('#TheImg').attr('src','img/slac-white.png');
           
       }
       })
-      
-
-    
     });
-    
     </script>
 
   </body>

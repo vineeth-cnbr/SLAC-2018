@@ -20,18 +20,11 @@
   }
 }
 
-
-/* ---- Fill below this ---- */
-
-
-
 @media (max-width: 400.98px) {
   #about {
     padding-top: 215%;
   }
 }
-
-
 
 /* ---- Small devices (landscape phones, 576px and up) ---- */
 
@@ -63,26 +56,12 @@
   }
 }
   
-
-
 @media (min-width: 1524px) { 
   #about {
     padding-top: 60%;
   }
 
  }
-
-
-
-
-/* ---- Fill above this ---- */
-
-
-
-/*#about {
-  padding-top: 50%;
-  margin-top: 0%;
-}*/
 
 @media (min-width: 767.98px) {
   canvas {

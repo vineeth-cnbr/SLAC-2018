@@ -1,29 +1,36 @@
 {
-    "title": "Freelancer",
-    "name": "startbootstrap-freelancer",
-    "version": "4.0.0",
-    "description": "A freelancer portfolio HTML theme for Bootstrap.",
+    "title": "SLAC 2018",
+    "name": "slac-2018",
+    "version": "2.1.1",
+    "description": "SLAC 2018 code",
+    "main": "index.js",
     "keywords": [
         "css",
         "sass",
         "html",
         "responsive",
-        "theme",
-        "template"
+        "SLAC",
+        "2018"
     ],
-    "homepage": "https://startbootstrap.com/template-overviews/freelancer",
+    "homepage": "https://slacfest.in",
     "bugs": {
-        "url": "https://github.com/BlackrockDigital/startbootstrap-freelancer/issues",
-        "email": "feedback@startbootstrap.com"
+        "url": "https://github.com/vineeth-cnbr/slac2018/issues"
     },
     "license": "MIT",
-    "author": "Start Bootstrap",
+    "author": "Contributors",
     "contributors": [
-        "David Miller (http://davidmiller.io/)"
-    ],
+        {
+            "name": "Vineeth Chandran",
+            "url": "https://github.com/vineeth-cnbr"
+        },
+        {
+          "name": "Aravind V Nair",
+          "url": "https://aravindvnair1999.blogspot.com"
+        }
+      ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/BlackrockDigital/startbootstrap-freelancer.git"
+        "url": "https://github.com/vineeth-cnbr/slac2018.git"
     },
     "dependencies": {
         "bootstrap": "4.0.0",
@@ -31,15 +38,5 @@
         "jquery": "3.3.0",
         "jquery.easing": "^1.4.1",
         "magnific-popup": "^1.1.0"
-    },
-    "devDependencies": {
-        "browser-sync": "2.23.5",
-        "gulp": "^3.9.1",
-        "gulp-clean-css": "3.9.2",
-        "gulp-filter": "5.1.0",
-        "gulp-header": "2.0.1",
-        "gulp-rename": "^1.2.2",
-        "gulp-sass": "^3.1.0",
-        "gulp-uglify": "3.0.0"
     }
 }

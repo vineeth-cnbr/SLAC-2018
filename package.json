@@ -12,6 +12,9 @@
         "SLAC",
         "2018"
     ],
+    "man": [
+        "./README.MD"
+      ],
     "homepage": "https://slacfest.in",
     "bugs": {
         "url": "https://github.com/vineeth-cnbr/slac2018/issues"

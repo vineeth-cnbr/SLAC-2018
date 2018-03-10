@@ -1,0 +1,1 @@
+Details in [package.json](package.json)

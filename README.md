@@ -1,6 +1,6 @@
 # SLAC 2018
 
-Source code for SLAC 2018 website.
+Source code for [SLAC 2018](https://slacfest.in/) website.
 
 # :octocat: How to contribute?
 

@@ -14,7 +14,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 # :octocat: Team
 
-* **Vineeth Chandran** - *Chief Coder and tester* - [Abhishek-Sai](https://github.com/vineeth-cnbr)
+* **Vineeth Chandran** - *Chief Coder and tester* - [vineeth-cnbr](https://github.com/vineeth-cnbr)
 * **Aravind V. Nair** - *Coder and tester* - [AravindVNair99](https://github.com/aravindvnair99)
 
 See the full list of [contributors](https://github.com/vineeth-cnbr/slac2018/graphs/contributors) who participated in this project and statistics.

@@ -1,7 +1,7 @@
 {
     "title": "SLAC 2018",
     "name": "slac-2018",
-    "version": "2.1.1",
+    "version": "2.2.0",
     "description": "SLAC 2018 code",
     "main": "index.js",
     "keywords": [
@@ -28,7 +28,7 @@
         },
         {
           "name": "Aravind V Nair",
-          "url": "https://aravindvnair1999.blogspot.com"
+          "url": "https://aravindvnair99.firebaseapp.com"
         }
       ],
     "repository": {
